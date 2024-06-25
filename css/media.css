@@ -1,0 +1,1099 @@
+
+@media (max-width: 1200px) {
+
+  .container {
+    max-width: 940px;
+  }
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-logo {
+    max-width: 112px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-nav-bottom {
+    display: block;
+    margin-top: 33px;
+    border-top: 1px solid var(--lightGrey-color);
+    border-bottom: 1px solid var(--lightGrey-color);
+    padding: 21px 0 ;
+  }
+
+  .nav-link {
+    margin-right: 105px;
+  }
+
+  .nav-button {
+    position: absolute;
+    right: 0;
+    top: 28px;
+  }
+
+  .hero-container {
+    padding-top: 84px;
+    padding-bottom: 88px;
+  }
+
+  .hero-microphone::after {
+    top: -29px;
+    width: 257px;
+    height: 316px;
+  }
+
+  .hero-descr {
+    max-width: 535px;
+    margin-top: 11px;
+  }
+
+  .hero-button {
+    margin-top: 20px;
+  }
+
+  .card {
+    min-width: 397px;
+  }
+
+  .broadcasts {
+    padding-top: 91px;
+    padding-bottom: 35px;
+    position: relative;
+  }
+
+  .broadcasts-card-top {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .broadcasts-card-container {
+    margin-top: 18px;
+}
+
+  .guests {
+    padding-top: 90px;
+  }
+
+  .guests-subtitle-about {
+    max-width: 533px;
+  }
+
+  .guests-about {
+    line-height: 28.8px;
+  }
+
+  .playlists-container {
+    flex-direction: column;
+  }
+
+  .playlists-left {
+    max-width: fit-content;
+    margin-right: 41px;
+  }
+
+  .playlists-right {
+    margin-top: 24px;
+  }
+
+  .playlists-card {
+    min-width: 160px;
+    max-width: none;
+    flex-direction: row;
+  }
+
+  .playlists-card-line {
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+
+  .card-img {
+    max-width: 112px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .playlists-card-descr {
+    padding: 38px 4px 15px 9px;
+  }
+
+  .card-img svg {
+    left: 0;
+  }
+
+  .market {
+    padding-top: 90px;
+    padding-bottom: 94px;
+  }
+
+  .market-img {
+    width: 399px;
+    height: 350px;
+    position: relative;
+  }
+
+  .market-left {
+    margin-top: 129px;
+    margin-right: 28px;
+  }
+
+  .market-img-svg {
+    top: -34px;
+    left: 0px;
+    width: 100px;
+  }
+
+  .market-title {
+    margin-bottom: 17px;
+  }
+
+  .maket-descr-first,
+  .market-descr-second {
+    max-width: 394px;
+    margin-top: 14px;
+  }
+
+  .spiral {
+    display: none;
+  }
+
+  .about-us {
+    padding-top: 90px;
+  }
+
+  .about-us-subtitle  {
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  .about-us-descr {
+    margin-top: 8px;
+  }
+
+  .star {
+    margin-top: 53px;
+  }
+
+  .about-us-container {
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 29px;
+    gap: 29px 30px;
+  }
+
+  .name-quote {
+    margin-top: 4px;
+  }
+
+  .textarea {
+    min-width: 824px;
+  }
+
+  .input {
+    min-width: 398px;
+  }
+
+  .footer {
+    padding-top: 92px;
+  }
+
+  .footer-right {
+    margin-top: 3px;
+    margin-left: 219px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    max-width: 824px;
+  }
+
+  .podcasts-list {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .broadcasts-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    max-width: 300px;
+  }
+
+  .broadcasts-card {
+    max-width: 100%;
+  }
+
+  .broadcasts-card-top{
+    padding-bottom: 61px;
+  }
+
+  .textarea {
+    max-width: 100%;
+  }
+
+
+  .maket-descr-first {
+    padding-top: 32px;
+    margin-bottom: 12px;
+    background: url(../img/market768.svg) top left no-repeat;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .container {
+    max-width: 758px;
+  }
+
+  .hero-microphone::after {
+    display: none;
+  }
+
+  .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 53px;
+  }
+
+  .broadcasts {
+    padding-top: 90px;
+    padding-bottom: 158px;
+  }
+
+  .broadcasts-card-top {
+    padding-top: 102px;
+    padding-bottom: 61px;
+  }
+
+  .broadcasts-bottom {
+    left: 89px;
+    bottom: -128px;
+    flex-direction: row;
+    max-width: 400px;
+  }
+
+  .broadcasts-bottom::before {
+    width: 157px;
+    height: 89px;
+  }
+
+
+  .broadcasts-container-second  {
+    flex-direction: column;
+  }
+
+    .broadcasts-bottom-left {
+    margin-left: 4px;
+  }
+
+  .broadcasts-card-container {
+    margin-left: 0;
+  }
+
+  .name-quote {
+    line-height: 25px;
+  }
+
+  .broadcasts-button {
+    margin-bottom: 8px;
+  }
+
+  .podcasts-list {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .guests-item__container  {
+    flex-direction: column;
+  }
+
+  .guests-photo {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .guests-descr {
+    padding: 29px 0px 0px 0px;
+    max-width: 360px;
+  }
+
+  .guests-about {
+    margin-bottom: 31px;
+  }
+
+  .playlists-card-line {
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+
+  .playlists {
+    padding-top: 90px;
+    padding-bottom: 113px;
+  }
+
+  .market-container {
+    flex-direction: column;
+  }
+
+  .market-img {
+    width: 540px;
+    height: 468px;
+    position: relative;
+  }
+
+  .market-left {
+    margin-top: -33px;
+    margin-right: 0;
+  }
+
+  .market-img-svg {
+    top: -4px;
+    left: -9px;
+    width: 176px;
+  }
+
+  .market-title {
+    margin-top: 48px;
+  }
+
+  .maket-descr-first,
+  .market-descr-second {
+    max-width: 536px;
+  }
+
+  .about-us-top {
+    flex-direction: column;
+  }
+
+  .about-us-left-part {
+    max-width: 523px;
+    margin-right: 0;
+  }
+
+  .spiral svg {
+    opacity: 0;
+  }
+
+  .spiral  {
+    margin-top: 28px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    background:url(../img/spiral768.svg) no-repeat;
+    min-width: 100%;
+  }
+
+  .star {
+    position: absolute;
+    margin-top: 30px;
+    right: -0;
+    background: url(../img/star768.svg) no-repeat ;
+  }
+
+  .star svg {
+    opacity: 0;
+  }
+
+  .about-us-container {
+    margin-top: 171px;
+    gap: 30px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .about-us-form {
+    margin-top: 31px;
+  }
+
+  .input ,
+  .textarea {
+    min-width: 100%;
+  }
+
+  .input-name {
+    margin-bottom: 30px;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-icon-social {
+    margin-top: 19px;
+  }
+
+  .social-list-item svg {
+    width: 36px;
+    height: auto;
+  }
+
+  .footer-list-item {
+    margin-right: 157px;
+    margin-bottom: 28px;
+  }
+
+  .footer-right {
+    margin-top: 74px;
+    margin-left: 0;
+  }
+
+  .footer-list {
+    min-height: 160px;
+  }
+
+  .footer-bottom {
+    margin-top: 32px;
+  }
+
+  }
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 540px;
+  }
+
+  .star svg {
+
+    width: 112px;
+    height: 112px;
+  }
+
+  .nav-link:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .container {
+    padding: 0 32px;
+  }
+
+  .header-nav-bottom {
+    overflow-x: scroll;
+    margin-top: 22px;
+    padding-bottom: 0;
+    padding-top: 16px;
+  }
+
+  .header-nav-bottom::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .card {
+    min-width: 318px;
+  }
+
+  .broadcasts-card-top {
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 30px;
+  }
+
+  .broadcasts-bottom {
+    left: 0;
+  }
+
+  .playlists-card {
+    max-width: 160px;
+    min-width: unset;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .playlists-card-descr {
+    padding: 9px 8px 8px 9px;
+    border: 1px solid var(--lightGrey-color);
+    flex-basis: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .card-img {
+    max-width: fit-content;
+  }
+
+  .market-img {
+    max-width: 256px;
+    max-height: 225px;
+    position: relative;
+  }
+
+  .market-img-svg {
+    top: -52px;
+    left: -1px;
+    width: 65px;
+  }
+
+  .spiral ,
+  .star {
+    display: none;
+  }
+
+  .about-us-left-part {
+    max-width: fit-content;
+  }
+
+  .about-us-container {
+    margin-top: 30px;
+    gap:30px;
+  }
+
+  .footer-list-item {
+    margin-right: 79px;
+    margin-bottom: 22px;
+  }
+
+  .footer-list {
+    min-height: 180px;
+  }
+
+  .main-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .main-title__second {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .hero-descr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .podcasts-title,
+  .guests-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .card-descr__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .card-descr__name {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3px;
+  }
+
+  .broadcasts-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .broadcasts-card-title {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+  }
+
+  .broadcasts-card-descr {
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+    line-height: 9px;
+  }
+
+  .broadcasts-link-more {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .broadcasts-bottom-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .guests-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+
+  .guests-subtitle-about {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .playlists-descr  {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .playlists-date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 14px;
+  }
+
+  .market-price {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .market-btn {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 18px;
+    padding: 13px 12px 10px 12px;
+    min-width: 256px;
+  }
+
+  .market-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 9px;
+    margin-top: 28px;
+  }
+
+  .about-us-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .about-us-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+
+  .about-us-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 3px;
+  }
+
+  .footer-list-item {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .footer-end {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .input {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .about-us-button {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .about-us-checkbox{
+    font-size: 9px;
+    font-weight: 500;
+  }
+
+  .card-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .name-quote {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .textarea {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+
+}
+
+@media (max-width: 380px) {
+
+
+  .header-logo {
+    max-width: 88px;
+  }
+
+  .header-container {
+    padding-top: 22px;
+  }
+
+  .nav-button {
+    top: 15px;
+    right: 6px;
+  }
+
+  .nav-link {
+    margin-right: 28px;
+  }
+
+  /* .main-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .main-title__second {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+  } */
+
+  .hero-descr {
+    margin-top: 4px;
+  }
+
+  .hero-container {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+
+  .hero-button {
+    padding: 17px 45px;
+    margin-top: 19px;
+  }
+
+  .podcasts-title,
+  .guests-title {
+    padding-bottom: 0;
+    margin-bottom: 17px;
+  }
+
+  .podcasts {
+    padding-top: 53px;
+    padding-bottom: 57px;
+  }
+
+  .card {
+    flex-direction: column;
+    max-width: 200px;
+    min-width: fit-content;
+  }
+
+  .podcasts-card-img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card__label {
+    top: 0;
+  }
+
+  .card-descr {
+    padding: 26px 5px 29px 16px;
+    max-width: 383px;
+  }
+
+  .card-descr__title {
+    margin-bottom: 0;
+  }
+
+  .card-descr__name {
+    margin-top: 3px;
+  }
+
+  .broadcasts {
+    padding-top: 54px;
+    padding-bottom: 162px;
+  }
+
+  .broadcasts-card-top {
+    padding-top: 9px;
+    padding-bottom: 61px;
+  }
+
+  .broadcasts-card {
+    max-width: 113px;
+  }
+
+  .broadcasts-card-descr {
+    margin-top: 5px;
+  }
+
+  .broadcasts-card-img {
+    max-height: 50px;
+  }
+
+  .broadcasts-descr {
+    padding: 9px 3px 8px 9px;
+    min-height: 97px;
+  }
+
+  .broadcasts-bottom {
+    left: 96px;
+    max-width: 300px;
+    bottom: -119px;
+  }
+
+  .broadcasts-bottom::before {
+    top: 24px;
+    left: -89px;
+    position: absolute;
+    width: 83px;
+    height: 102px;
+  }
+
+  .broadcasts-bottom-left {
+    display: flex;
+    flex-direction: column-reverse;
+    left: 92px;
+    top: 25px;
+  }
+
+  .broadcasts-bottom-descr {
+    max-width: 170px;
+    min-width: 120px;
+  }
+
+  .broadcasts-button {
+    padding: 8px 29px 8px 31px;
+    margin-top: 7px;
+  }
+
+  .guests {
+    padding-top: 53px;
+    padding-bottom: 50px;
+  }
+
+  .guests-subtitle {
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
+
+  .guests-subtitle-about {
+    max-width: 257px;
+    margin-top: 0;
+  }
+
+  .guests-title {
+    margin-bottom: 0;
+  }
+
+  .guests-card {
+    margin-top: 23px;
+  }
+
+  .guests-descr {
+    padding: 10px 0px 0px 0px;
+    max-width: 300px;
+  }
+
+  .guests-button {
+    padding: 7px 17px 11px 13px
+  }
+
+  .guests-item:not(:last-child) {
+    margin-bottom: 19px;
+  }
+
+  .playlists-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .playlists {
+    padding-top: 54px;
+    padding-bottom: 53px;
+  }
+
+  .playlists-date {
+    margin-bottom: 14px;
+  }
+
+  .playlists-left {
+    max-width: fit-content;
+    margin-right: 0;
+  }
+
+  .playlists-card {
+    max-width: 113px;
+    min-width: unset;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .playlists-card-descr {
+    padding: 9px 8px 8px 9px;
+    border: 1px solid var(--lightGrey-color);
+    flex-basis: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .card-img {
+    max-width: 160px;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .playlists-card-descr-name {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .playlists-link {
+    font-size: 9px;
+    font-weight: 400;
+  }
+
+  .playlists-card-line {
+    gap: 28px;
+  }
+
+  .card-img svg {
+    left: unset;
+    right: 0;
+  }
+
+  .market {
+    padding-bottom: 56px;
+  }
+
+  .market-title {
+    margin-bottom: 9px;
+    margin-top: 28px;
+  }
+
+  .maket-descr-first,
+  .market-descr-second {
+    max-width: 263px;
+    padding-top: 27px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  .market-descr-second {
+    padding-top: 0;
+    margin-top: 12px;
+  }
+
+  .maket-descr-first {
+    margin-bottom: 9px;
+  }
+
+  .market-price {
+    margin-top: 10px;
+  }
+
+  .market-btn {
+    margin-top: 18px;
+    padding: 13px 12px 10px 12px;
+    min-width: 256px;
+  }
+
+  .about-us {
+    padding: 54px 0;
+  }
+
+  .about-us-descr {
+    margin-top: 3px;
+  }
+
+  .about-us-left-part {
+    max-width: fit-content;
+    margin-right: 0;
+  }
+
+  .card-name {
+    padding-top: 12px;
+    max-width: 30px;
+    line-height: 18px;
+  }
+
+  .name-quote {
+    margin-top: 5px;
+  }
+
+  .textarea {
+    min-width: fit-content;
+    border-radius: 20px;
+    padding: 13px 63px 10px 24px;
+  }
+
+  .about-us-form {
+    margin-top: 30px;
+  }
+
+  .input {
+    background-repeat: 26px;
+    min-width: fit-content;
+    padding: 13px 66px 18px 24px;
+  }
+
+  .about-us-button {
+    padding: 15px 45px;
+    margin-top: 29px;
+  }
+
+  .about-us-checkbox{
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding-top: 48px;
+  }
+
+  .footer-right {
+    margin-top: 79px;
+  }
+
+  .footer-bottom {
+    margin-top: 15px;
+  }
+
+  .footer-end {
+    padding: 12px 5px 9px 5px;
+  }
+
+
+}
